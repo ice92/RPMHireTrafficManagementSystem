@@ -1,0 +1,97 @@
+.brand-glyph {
+  font: 800 10px/1 'DM Sans', sans-serif;
+  letter-spacing: -.7px;
+  transform: none;
+}
+
+.brand-mark {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e2f2ed, #b9dcd2);
+  box-shadow: inset 0 0 0 1px #ffffff75;
+}
+
+.brand-mark::after {
+  position: absolute;
+  right: 4px;
+  bottom: 5px;
+  color: #438579;
+  content: 'HIRE';
+  font-size: 4px;
+  font-weight: 800;
+  letter-spacing: .65px;
+}
+
+.topbar-left {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 23px;
+}
+
+.top-brand {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+}
+
+.top-brand-symbol {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 8px;
+  background: #173a43;
+  color: #e5f4ef;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: -.35px;
+}
+
+.top-brand-copy {
+  display: flex;
+  flex-direction: column;
+  color: #183841;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .8px;
+  line-height: 1.1;
+}
+
+.top-brand-copy small {
+  margin-top: 3px;
+  color: #89969a;
+  font-size: 6px;
+  font-weight: 700;
+  letter-spacing: .65px;
+}
+
+@media (max-width: 680px) {
+  .topbar-left {
+    gap: 12px;
+  }
+
+  .top-brand-copy small {
+    display: none;
+  }
+
+  .top-brand {
+    gap: 5px;
+  }
+
+  .breadcrumb {
+    gap: 6px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 460px) {
+  .top-brand-copy {
+    display: none;
+  }
+
+  .topbar-left {
+    gap: 8px;
+  }
+}

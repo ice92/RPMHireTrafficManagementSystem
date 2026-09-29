@@ -1,0 +1,79 @@
+.legend-route,
+.legend-impacted-route {
+  display: inline-block;
+  width: 15px;
+  height: 0;
+  border-top: 3px solid #16866e;
+  border-radius: 4px;
+}
+
+.legend-impacted-route {
+  border-top: 2px dashed #c45e56;
+}
+
+.pedestrian-detour {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #dcece6;
+  border-radius: 8px;
+  background: #f5faf7;
+}
+
+.detour-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.detour-icon {
+  display: grid;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border-radius: 6px;
+  background: #e0f1e9;
+  color: #16866e;
+  font-weight: 700;
+}
+
+.detour-title strong {
+  flex: 1;
+  color: #344b48;
+  font-size: 10px;
+}
+
+.detour-status {
+  color: #58816f;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: .55px;
+}
+
+.pedestrian-detour p {
+  margin: 7px 0;
+  color: #71827b;
+  font-size: 9px;
+}
+
+.detour-distance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e3eee8;
+  padding-top: 7px;
+  color: #788781;
+  font-size: 9px;
+}
+
+.detour-distance strong {
+  color: #187963;
+  font: 700 13px Manrope, sans-serif;
+}
+
+.pedestrian-detour > small {
+  display: block;
+  margin-top: 7px;
+  color: #8a8171;
+  font-size: 8px;
+  line-height: 1.4;
+}
